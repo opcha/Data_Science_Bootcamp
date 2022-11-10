@@ -12,4 +12,4 @@ just for fun - learing xml
  
 ## My Portfolios
 
-Please see my Google Data Studio dashboard [here](https://www.google.co.th)
+Please see my Google Data Studio dashboard [here](https://github.com/opcha/my-first-xml/blob/main/Stores_Report.pdf)
