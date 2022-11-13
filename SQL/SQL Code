@@ -1,0 +1,10 @@
+SELECT 
+	firstname,
+	lastname, 
+  country, 
+  InvoiceDate, 
+  billingaddress
+FROM(
+  SELECT * FROM customers cust
+  LEFT JOIN invoices inv ON cust.customerId = inv.customerid
+  WHERE cust.country = 'Argentina');
