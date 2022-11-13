@@ -1,0 +1,6 @@
+library(tidyverse)
+
+df <- read_csv("churn.csv")
+
+df %>%
+  select(churn, customer_id, name, age)
